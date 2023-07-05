@@ -10,6 +10,7 @@ main{
   width: 800px;
   margin: 0 auto;
   background-color: orange;
+  justify-content: space-evenly;
 }
 
 section{
@@ -23,16 +24,37 @@ section{
 }
 
 #section-1{
+  /* order: 1; */
 }
 
 #section-2{
+  /* flex-grow: 2; */
+  flex-grow: calc(2 / 5);
+  /* order: 2; */
+  /* order: 1; */
 }
 
 #section-3{
+  /* flex-grow: 3; */
+  flex-grow: calc(3 / 5);
+  /* order: 3; */
+  /* order: 1; */
 }
 
 #section-4{
+  flex-basis: 200px;
+  /* flex-grow: 3; */
+  /* order: 4; */
+  /* order: 1; */
 }
 
 #section-5{
+  order: -1;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
