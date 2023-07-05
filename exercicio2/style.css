@@ -4,6 +4,11 @@
 }
 
 main{
-  padding-top: 20px;
+  padding: 35px;
+  margin: 20px;
+  border: 2px solid gray;
   display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  width: 45%;
 }
